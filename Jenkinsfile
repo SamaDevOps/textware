@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("raj80dockerid/test")
+       app = docker.build("samadhi995/nginx-login")
     }
 
     stage('Test image') {
